@@ -1,14 +1,14 @@
 body {
-  background-color: black
+  background-color: black;
 }
 
 .page{
   background-color: #6b6b6b;
   font-family: verdana;
   color: #DCDCDCDC;
-  margin: 2%;
+  margin: auto;
   width: 90%;
-  max-width: 600px;
+  max-width: 700px;
   padding-bottom: 20px;
 
 }
