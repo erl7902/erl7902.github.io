@@ -1,6 +1,8 @@
 body {
   background-color: black;
+  background-image: url("binding_dark.png")
 }
+/* background image: https://www.toptal.com/designers/subtlepatterns/binding_dark/ */
 
 .page{
   background-color: #6b6b6b;
