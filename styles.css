@@ -8,13 +8,18 @@ body {
   color: #DCDCDCDC;
   margin: 2%;
   width: 90%;
-  max-width: 500px;
+  max-width: 600px;
+  padding-bottom: 20px;
 
 }
 
 .navbar{
   padding: 0;
   display: inline-block;
+  background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
 }
 
 .content {
@@ -25,24 +30,21 @@ a {
   color: lightskyblue;
 }
 
+a:hover {
+  background-color: slategray;
+}
+
 p {
     word-wrap: break-word;
 }
 
 /* Navbar from W3 schools */
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
 
-li {
+.navbar-li {
   float: left;
 }
 
-li a {
+.navbar-li-a {
   display: block;
   text-align: center;
   padding: 14px 16px;
@@ -50,10 +52,10 @@ li a {
   background-color: #333
 }
 
-li a:hover {
-  background-color: slategray;
-}
-
-.active {
+.navbar-active {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   background-color: black;
 }
